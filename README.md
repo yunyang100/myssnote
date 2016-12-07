@@ -1,8 +1,8 @@
-# Myssnote
+# MyssMote
 
 This note is to document how to set up ss server.
 
-# install the ss
+# Install the ss
 --apt-get install python-pip <br>
 --pip install shadowsocks
 
