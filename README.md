@@ -3,19 +3,19 @@
 This note is to document how to set up ss server.
 
 # install the ss
---apt-get install python-pip /<br>
+--apt-get install python-pip <br>
 --pip install shadowsocks
 
 ####Maybe you need to upgrade the pip or install the setuptools
---pip install -U pip      // -U  upgrade /<br>
+--pip install -U pip      // -U  upgrade <br>
 --apt-get install python-setuptools
 
 # Start
---ssserver -p 443 -k password -m rc4-md5/<br>
+--ssserver -p 443 -k password -m rc4-md5<br>
 ssserver -p server_port -k yourPassword -m Method
 
 # To run in the backgorund
---sudo ssserver -p 443 -k password -m rc4-md5 --user nobody -d start/<br>
+--sudo ssserver -p 443 -k password -m rc4-md5 --user nobody -d start<br>
 ssserver -p server_port -k yourPassword -m Method --user Username -d run in the background
 
 # Stop
